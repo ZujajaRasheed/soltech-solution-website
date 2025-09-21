@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+
+body{
+
+background-color:#FFFbF9;
+color:black;
+
+   font-family: var(--font-lato), sans-serif;
+
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+p
+{
+  @apply text-gray-700;
+}
+h1{
+  @apply font-bold;
+}
